@@ -5,8 +5,8 @@ curl https://raw.githubusercontent.com/arshsisodiya/helios-mirror/h-code/a2c.con
 cp a2c.conf /usr/src/app/a2c.conf
 rm -rf /tmp/ci
 rm -rf /tmp/files
-git clone https://github.com/Dawn-India/Z-Mirror -b heroku /tmp/ci
-git clone https://${SECRET_TOKEN}@github.com/stam76/files -b heroku-z /tmp/files
+git clone https://github.com/anasty17/mirror-leech-telegram-bot -b heroku /tmp/ci
+git clone https://${SECRET_TOKEN}@github.com/stam76/files -b anas /tmp/files
 cd /tmp/files
 rm -rf .git
 cp -r . /tmp/ci
